@@ -1,9 +1,9 @@
-import type { Metadata } from 'next';
-import './globals.css';
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Bloomme | Give people their flowers',
-  description: 'Bloomme is a social app built around appreciation, positivity, and meaningful recognition.',
+  title: "Bloomme | Give people their flowers",
+  description: "Bloomme is a social app built around appreciation, recognition, and meaningful connection.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
