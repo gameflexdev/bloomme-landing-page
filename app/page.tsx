@@ -26,7 +26,7 @@ const flowerTypes: FlowerTypeProps[] = [
   { emoji: '🌸', title: 'Bloom Flower', text: 'For growth, support, and positivity.' },
 ];
 
-export default function BloommeLandingPage(): JSX.Element {
+export default function BloommeLandingPage(): React.ReactElement {
   return (
     <div className="min-h-screen overflow-hidden bg-[#07070C] text-white">
       <BackgroundGlow />
